@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Azeret Mono", monospace;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+#top {
+    position: relative; /* Changed to relative from absolute */
+}
+
+#top .p1 {
+    width: 114px;
+    height: 34px;
+    /* Adjusted position based on your design */
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+#top .p2 {
+    width: 228px;
+    height: 58px;
+    /* Adjusted position based on your design */
+    position: absolute;
+    left: 1046px;
+    top: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px; /* Adjusted padding */
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+#hero {
+    background-image: url('../Hero-bg.png');
+    background-position: center;
+    width: 1440px;
+    height: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Adjusted padding */
+    margin: 0 auto;
+}
+
+#hero .content {
+    width: 998px;
+    height: 582px;
+    /* Adjusted position based on your design */
+    position: relative;
+    top: 157px;
+}
+
+#hero .content .img {
+    width: 240px; /* Adjusted width */
+    height: 240px; /* Adjusted height */
+    position: absolute;
+    left: 50%; /* Adjusted position */
+    top: 50%; /* Adjusted position */
+    transform: translate(-50%, -50%); /* Centering the image */
+}
+.button{
+    /* Frame 2 */
+    position: static;
+    width: 208px;
+   height: 66px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+
+    /* Inside Auto Layout */
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 32px 0px;
+   border-radius: 8px;
+   background: rgb(28, 37, 56);
+   color: rgb(255, 255, 255);
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 23px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+.section{
+/* Frame 13 */
+position: absolute;
+width: 1140px;
+height: 1395px;
+left: 148px;
+right: 152px;
+top: 857px;
+bottom: 2993px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 80px 97px 80px 97px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+}
+.div{
+    /* Frame 12 */
+position: static;
+width: 946px;
+height: 1235px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+/* Frame 12 */
+position: static;
+width: 946px;
+height: 1235px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.h1-layout{
+    /* Why Web Development?? */
+position: static;
+width: 852px;
+height: 39px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.lorem-head{
+    position: static;
+    width: 852px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.i-will{
+    /* I will Do Coding and Change The World */
+    position: static;
+    width: 390px;
+    height: 72px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.lorem-mid{
+    position: static;
+    width: 468px;
+    height: 52px;
+/* Auto layout */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0px;
+
+/* Inside Auto Layout */
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 16px 0px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+}
+.learn{
+    position: static;
+    width: 150px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+ /* Learn More */
+position: static;
+width: 110px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+}
+.in-div{/* Frame 8 */
+    position: static;
+    width: 946px;
+    height: 336px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    /* Frame 10 */
+    position: static;
+    width: 850px;
+    height: 240px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    /* Group 2 */
+    position: static;
+    width: 274.17px;
+    height: 240px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    
+    
+}
+.layer1{/* Group */
+    position: absolute;
+    width: 259.56px;
+    height: 217.01px;
+    left: 0.36%;
+    right: -0.36%;
+    top: 1.74%;
+    bottom: -1.74%;/* Layer_1 */
+    position: relative;
+    width: 274.17px;
+    height: 240px;
+}
+.under{
+    /* Frame 9 */
+    position: static;
+    width: 477px;
+    height: 220px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+    
+}
+#youtube{
+    /* Frame 15 */
+    position: absolute;
+    width: 1140px;
+    height: 777px;
+    left: 148px;
+    right: 152px;
+    top: 2340px;
+    bottom: 2128px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.ins{
+    /* My Inspiration */
+    position: static;
+    width: 852px;
+    height: 39px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.lorp{
+    position: static;
+    width: 852px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.zero{
+    /* Rectangle 1 */
+    position: static;
+    width: 1076px;
+    height: 550px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+    border-radius: 16px;
+    
+}
+.frame1{
+    /* Frame 5 */
+    position: static;
+    width: 852px;
+    height: 115px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 0px;}
+    .target{
+        /* My Current Target */
+        position: static;
+        width: 852px;
+        height: 39px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+        
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 24px 0px;
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        letter-spacing: 0%;
+        text-align: center;}
+  .main-div{
+    /* Frame 19 */
+    position: static;
+    width: 1140px;
+    height: 462px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 111px 0px;
+}
+.three{/* Frame 18 */
+        position: static;
+        width: 1140px;
+        height: 299px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+        
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 48px 0px;
+}
+.html{
+    /* Frame 10 */
+            position: static;
+            width: 364px;
+            height: 299px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 40px;
+            
+            
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 24px;
+            border-radius: 16px;
+            background: rgba(255, 76, 30, 0.05);/* Frame 10 */
+            position: static;
+            width: 284px;
+            height: 219px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0px;
+            
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            margin: 32px 0px;           
+}
+.H{
+    /* HTML */
+    position: static;
+    width: 284px;
+    height: 36px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.LP{
+    position: static;
+    width: 284px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.next{/* Frame 12 */
+    position: static;
+    width: 946px;
+    height: 113px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+.nex{/* My Next Target */
+    position: static;
+    width: 852px;
+    height: 37px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#sec{/* Frame 26 */
+    position: absolute;
+    width: 1140px;
+    height: 1439px;
+    left: 150px;
+    right: 150px;
+    top: 3266px;
+    bottom: 540px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    }
